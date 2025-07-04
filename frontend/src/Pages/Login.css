@@ -1,0 +1,117 @@
+.login-container {
+    background: #eef2ff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    background: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 22px;
+  }
+  
+  .subtitle {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .tab-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    flex: 1;
+    padding: 10px;
+    background: #f1f1f1;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background: #fff;
+    border-bottom: 2px solid blue;
+  }
+  
+  .role-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .role-btn {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .role-btn.selected {
+    background: #1e293b;
+    color: white;
+    border-color: #1e293b;
+  }
+  
+  .submit-btn {
+    background: #1e293b;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .demo-box {
+    font-size: 13px;
+    background: #f9f9f9;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 6px;
+    text-align: left;
+  }
+  
+  .back-link {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  

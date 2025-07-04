@@ -1,0 +1,118 @@
+/* src/Pages/Register.css */
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #d3cce3, #e9e4f0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .register-box {
+    background-color: #ffffff;
+    padding: 2.5rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .register-box h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .register-box label {
+    font-weight: 600;
+    margin-top: 1rem;
+    display: block;
+    color: #444;
+  }
+  
+  .register-box input {
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    margin-top: 0.4rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+  }
+  
+  .register-box input:focus {
+    border-color: #6c63ff;
+    outline: none;
+  }
+  
+  .role-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .role-btn {
+    background-color: #f2f2f2;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .role-btn.selected {
+    background-color: #6c63ff;
+    color: #fff;
+    border-color: #6c63ff;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #574fd6;
+  }
+  
+  .back-link {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .back-link a {
+    color: #6c63ff;
+    text-decoration: none;
+  }
+  
+  .back-link a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,287 @@
+/* 
+.translator-wrapper {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafb;
+  max-width: 960px;
+  margin: auto;
+}
+
+.translator-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 1rem;
+}
+
+.header-left .title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.language-select {
+  padding: 0.4rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.language-pair {
+  margin-left: 1rem;
+  color: #4b5563;
+}
+
+.profile-icon {
+  background-color: #111827;
+  color: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.verse-selector {
+  margin: 1rem 0;
+}
+
+.verse-selector select {
+  margin-left: 0.5rem;
+  padding: 0.4rem;
+  font-size: 1rem;
+}
+
+.translation-content {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.source-box,
+.translation-box {
+  flex: 1;
+  background: white;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.source-box p {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+.translation-box textarea {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  resize: vertical;
+  margin-top: 0.5rem;
+}
+
+.action-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.action-buttons button {
+  background-color: #f59e0b;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.nav-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.nav-footer label {
+  margin-right: 0.5rem;
+  font-weight: 500;
+}
+
+.download-btn {
+  background-color: #10b981;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #059669;
+} */
+
+
+
+.translator-wrapper {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafb;
+  max-width: 960px;
+  margin: auto;
+}
+
+.translator-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.header-left .title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.language-select {
+  padding: 0.4rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.language-pair {
+  margin-left: 1rem;
+  color: #4b5563;
+}
+
+.profile-icon {
+  background-color: #111827;
+  color: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 3.5rem;
+  right: 1rem;
+  background-color: white;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.dropdown-menu div {
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+}
+
+.dropdown-menu div:hover {
+  background-color: #f3f4f6;
+}
+
+.verse-selector {
+  margin: 1rem 0;
+}
+
+.verse-selector select {
+  margin-left: 0.5rem;
+  padding: 0.4rem;
+  font-size: 1rem;
+}
+
+.translation-content {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.source-box,
+.translation-box {
+  flex: 1;
+  background: white;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.source-box p {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+.translation-box textarea {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  resize: vertical;
+  margin-top: 0.5rem;
+}
+
+.action-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.action-buttons button {
+  background-color: #f59e0b;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.nav-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.nav-footer label {
+  margin-right: 0.5rem;
+  font-weight: 500;
+}
+
+.download-btn {
+  background-color: #10b981;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #059669;
+}

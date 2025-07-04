@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f9f9fb;
+    color: #333;
+  }
+  
+  .translator-dashboard {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .translator-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .user-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+  }
+  
+  .avatar {
+    background: #0d1117;
+    color: #fff;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    z-index: 999;
+    min-width: 120px;
+  }
+  
+  .dropdown-menu button {
+    background: none;
+    border: none;
+    width: 100%;
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .dropdown-menu button:hover {
+    background-color: #f3f3f3;
+  }
+  
+  .dashboard-content {
+    padding: 2rem;
+    flex: 1;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+  }
+  
+  .stat-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    flex: 1 1 200px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  }
+  
+  .projects {
+    margin-top: 2rem;
+  }
+  
+  .project-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-left: 5px solid #003366;
+  }
+  
+  .project-card.completed {
+    border-left: 5px solid #28a745;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 8px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+    overflow: hidden;
+  }
+  
+  .progress-bar .fill {
+    height: 100%;
+    background: #0d1117;
+    border-radius: 4px;
+  }
+  
+  .continue-btn, .complete-btn {
+    margin-top: 0.75rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .continue-btn {
+    background-color: #0d1117;
+    color: white;
+  }
+  
+  .complete-btn {
+    background-color: #e0e0e0;
+    color: #333;
+    cursor: default;
+  }
+  
